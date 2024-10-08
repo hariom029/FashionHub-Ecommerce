@@ -1,8 +1,27 @@
-# React + Vite
+# Fashion Hub - Admin
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This folder contains the admin panel for managing the Fashion Hub application. Admins can add, edit, and delete products, and view and manage orders.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **Frontend:** React.js, Tailwind CSS
+- **Build Tool:** Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+1. Install dependencies:
+
+```
+npm install
+```
+   
+2. Start the admin panel on port 5174:
+
+```
+npm run dev
+```
+
+3.Access the admin dashboard at:
+
+```
+http://localhost:5174
+```
