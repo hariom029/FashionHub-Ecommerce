@@ -89,7 +89,7 @@ cd backend
 npm install
 ```
 
-  (ii) For the frontend:
+(ii) For the frontend:
 
   ```
     cd frontend
@@ -103,7 +103,7 @@ npm install
   npm install
 ```
 
-(iv) Create a .env file in each directory (admin, backend, and frontend) and add your environment variables:
+4.Create a .env file in each directory (admin, backend, and frontend) and add your environment variables:
 
 ```
 JWT_SECRET=<your_jwt_secret>
@@ -119,7 +119,27 @@ ADMIN_EMAIL=<Admin_Email>
 ADMIN_PASSWORD =<Admin_Password>
 ```
 
-## Usage : 
+5.Start the backend server:
+
+```
+npm run server
+```
+6.Start the frontend:
+
+(i) For the user interface:
+
+```
+npm run dev
+```
+
+(ii) For the admin interface:
+
+```
+npm run dev
+```
+
+
+## Usage
 
 - Navigate to http://localhost:5173 for the user interface.
 - Navigate to http://localhost:5174 for the admin dashboard.
